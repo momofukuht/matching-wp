@@ -1,0 +1,19 @@
+# WordPress本体（Git管理しない）
+wp-admin/
+wp-includes/
+
+# 環境設定ファイル（機密情報を含む）
+wp-config.php
+
+# キャッシュや一時ファイル
+wp-content/cache/
+wp-content/uploads/
+logs/
+*.log
+
+# OS・エディタの不要ファイル
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
